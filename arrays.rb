@@ -15,7 +15,10 @@ pocket_change.pop
 # This code will give the number of elements in the descriptions variable
 descriptions.length
 
-puts "#{friends_names[0]} scored a #{test_scores[3]} on his exam today."
+puts "#{friends_names[0]} scored a #{test_scores[4]} on his exam today."
 descriptions[1] = true 
-puts "Is #{friends_names[0]} a good test taker? Survery says: #{descriptions[1]}"
+puts "Is #{friends_names[0]} a good test taker, true or false? Survery says: #{descriptions[1]}"
 
+# This code will insert two elements in the friends_names variable array in the second postion and print them
+friends_names.insert(1, "Price", "Allison")
+puts friends_names
